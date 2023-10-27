@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/0e031cba96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <nav>
+        <div class="logo">
+            <h3>Ern<span>codes</span></h3>
+        </div>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+ 
+    <div class="header-text">
+        <p> Fullstack <span style="color: #130101; font-weight: bold;">Developer</span></p>
+        <h1>Hi I'm <span>Ernest</span><br> From <br> <span>South Africa</span></h1>
+    </div>
+    <div class="animatediv">
+        <div class="texteffects">
+            <div class="box">
+                <span style="--i:1"><i></i> <i>P</i>ython <i class="fa-brands fa-python"></i></span>
+                <span style="--i:2"><i></i> <i>J</i>avascript <i class="fa-brands fa-js"></i></span>
+                <span style="--i:3"><i></i> <i>C</i>-sharp</span>
+                <span style="--i:4"><i></i> <i>J</i>ava <i class="fa-brands fa-java"></i></span>
+                <span style="--i:5"><i></i> <i>P</i>ython <i class="fa-brands fa-python"></i></span>
+                <span style="--i:6"><i></i> <i>J</i>avascript <i class="fa-brands fa-js"></i></span>
+                <span style="--i:7"><i></i><i>C</i>-sharp</span>
+                <span style="--i:8"><i></i><i>J</i>ava <i class="fa-brands fa-java"></i></span>
+              
+            </div>
+    </div>
+   
+    </div>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#130101" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,186.7C480,181,600,107,720,90.7C840,75,960,117,1080,133.3C1200,149,1320,139,1380,133.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+</div>
+
+<div class="imageback">
+    <div class="effect"></div>    
+</div>
+
+<!------About----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a fullstack developer who isn't afraid to take risks. 
+                    I'm always looking for new ways to push the boundaries of what's possible.
+                     I'm not afraid to fail, because I know that's how I learn and grow.
+                      I'm passionate about creating innovative solutions that make a 
+                      difference in the world. </p>
+
+                     <div class="tab-titles">
+                        <h5 id="skills" onclick="skitab()">Skills</h5>
+                        <h5 id="education" onclick="edutab()">Education</h5>
+                     </div>
+                  
+                     <div class="skill-tab">
+                        <i class="fa-regular fa-circle-xmark" onclick="collapse()" id="colx"></i>
+                           <div class="skills" id="skillx" >
+                            <ul>
+                                <li><span>Back-end</span><br> C#, Python,Javascript,Java</li>
+                                <li><span>Front-end</span><br> Angular,Css3,Html,J-query</li>
+                                <li><span>Middleware & Database</span><br> Node JS,Express JS,Sql & MongoDB</li>
+                            </ul>
+                           </div>
+                          
+    
+
+                            <div class="education" id="edux">
+                                <ul>
+                                    <li><span>2022</span><br> Computer technician</li>
+                                    <li><span>2022</span><br> Network Technician</li>
+                                    <li><span>2023</span><br> Fullstack Developer</li>
+                                </ul>
+                            </div>
+                           
+        
+                     </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<!----Services----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Services </h1>
+        <div class="services-list">
+            <div class="div1">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    I can create a custom website design based on your brand and needs.
+                    Integrate your existing content and images.
+                    Optimize your website for search engines.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="div2">
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>
+                    I create user-friendly and visually appealing app interfaces that
+                    stay up-to-date on the latest app design trends and technologies.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="div3">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>UI/UX Design</h2>
+                <p>
+                    I create visually appealing and user-friendly designs, with a
+                    consistent and cohesive user experience.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------Portfolio--------------------------->
+
+<div class="white">
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="titleback">
+                <h1 class="sub-title"> My Projects</h1>
+            </div>
+            
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/A.jpg" alt="">
+                    <div class="layer">
+                        <p>Imagine a world where you can wake up to the latest weather forecast,
+                            check your calendar, manage your tasks
+                            and listen to your favorite music,
+                            all with one app. That's the world of our simplistic App Compact.
+                        </p>
+                        <div class="title-link">
+                            <h3>App Compact</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="details">
+                       <div class="Tech-spec">
+                        <span>
+                         <h3>
+                            App name: App Compact
+                        </h3>
+                        </span>
+                        <br>
+                        <h3>
+                        Features:
+                        </h3>
+                        <br>
+                        <li>
+                        Daily And Future Weather Forecast
+                        </li>
+                        <li>
+                        Create,Update And Delete Tasks
+                        </li>
+                        <li>
+                        Monthly Calendar
+                        </li>
+                        <li>
+                        Music Player
+                        </li>
+                       </div>
+                       <div class="Technical">
+                        <h3>Programming language(s)</h3>
+                        <li>Javascript, Html</li>
+                        <h3>Development framework(s)</h3>
+                        <li>CSS</li>
+                        <h3>Backend technologies</h3>
+                        <li>Web Storage</li>
+                        <h3>Other technologies</h3>
+                        <li>Weather API</li>
+                       </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/B.jpg" alt="">
+                    <div class="layer">
+                        
+                        <p>
+                           TechBloggX is software platform that allows users to create and publish blog posts.
+                           Blog applications can be used by individuals and businesses to create blogs for a variety of purposes.
+                        </p>
+                        <div class="title-link">
+                            <h3>Blog</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                      
+                    </div>
+                    <div class="details">
+                        <div class="Tech-spec">
+                            <span>
+                             <h3>
+                                App name: TechBloggX
+                            </h3>
+                            </span>
+                            <h3>
+                            Features:
+                            </h3>
+                            <br>
+                            <li>
+                            Create and edit blog posts
+                            </li>
+                            <li>
+                            Publish, unpublish, and delete blog posts
+                            </li>
+                            <li>
+                            User management
+                            </li>
+                            <li>
+                            Category or tag management
+                            </li>
+                           </div>
+                           <div class="Technical">
+                            <h3>Programming language(s)</h3>
+                            <li>C#, Javascript</li>
+                            <h3>Development framework(s)</h3>
+                            <li>Asp.net, Bootstrap</li>
+                            <h3>Backend technologies</h3>
+                            <li>SQL,Cloud Storage</li>
+                            <h3>Other technologies</h3>
+                            <li>Entity framework</li>
+                           </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/C.jpg" alt="">
+                    <div class="layer">
+                        <p>
+                            Hotel management app that can help hoteliers of all sizes streamline their
+                             operations and improve their guest experience.
+                        </p>
+                        <div class="title-link">
+                            <h3>Hotel App</h3>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="Tech-spec">
+                            <span>
+                             <h3>
+                                App name: Hotel Management App
+                            </h3>
+                            </span>
+                            <br>
+                            <h3>
+                            Features:
+                            </h3>
+                            <br>
+                            <li>
+                            Reporting and analytics
+                            </li>
+                            <li>
+                            Room management
+                            </li>
+                            <li>
+                            Reservations management
+                            </li>
+                            <li>
+                            Reservations dashboard for clients
+                            </li>
+                           </div>
+                           <div class="Technical">
+                            <h3>Programming language(s)</h3>
+                            <li>C#</li>
+                            <h3>Development framework(s)</h3>
+                            <li>Windows Forms</li>
+                            <h3>Backend technologies</h3>
+                            <li>SQL</li>
+                            <h3>Other technologies</h3>
+                            <li>---</li>
+                           </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+</div>
+    <!------Contact------>
+    <div class="containerContact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-field">
+                        <p> <i class="fa-solid fa-phone"></i>+2766 537 0616</p>
+                        <p> <i class="fa-regular fa-paper-plane"></i>Erncodes@gmail.com</p>
+                      
+                        <div class="social-icons">
+                            <a href="https://github.com/erncodes/erncodes.git"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    
+                   
+                    <a href="asasa.jpg" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xleynnew" method="post">
+                        <input type="text" name="Name" placeholder="Your Name or Company Name" required>
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Erncodes<i class="fa-solid fa-code"></i>. Dev at Work</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
