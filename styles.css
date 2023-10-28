@@ -213,7 +213,7 @@ nav ul li a:hover::after
     height: 300px;
     background-attachment: fixed;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .effect
 {
@@ -435,7 +435,7 @@ nav ul li a:hover::after
     border-radius: 15px;
     transition: background 0.5s, transform 0.5s,box-shadow 1s;
     box-shadow: 0px 0px 5px 1px #ffffff81;
-    border: 2px solid transparent;
+    border: 2px solid white;
 }
 .services-list div:hover div
 {
@@ -545,9 +545,9 @@ nav ul li a:hover::after
     height: fit-content;
     background: rgb(0, 0, 0);
     position: relative;
-    border: 1px #130101 solid;
+    border: 2px #130101 solid;
     box-shadow: 3px 2px 18px 2px #000000;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-bottom: 150px;
 
 }
@@ -557,7 +557,7 @@ nav ul li a:hover::after
     display: block;
     transition: transform 0.5s;
     height: 280px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 .layer
 {
@@ -578,6 +578,9 @@ nav ul li a:hover::after
     text-align: center;
     font-size: 12px;
     transition: height 0.7s;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 .details
 {
@@ -585,9 +588,11 @@ nav ul li a:hover::after
     width: 500px;
     bottom: -200px;
     left: -35%;
-    background: #130101;
+    background: #ffffff;
+    color: #130101;
     position: absolute;
-    border-radius: 5px;
+    border: 2px solid #130101;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -597,7 +602,6 @@ nav ul li a:hover::after
     opacity: 0;
     transition: 0.7s ease-in-out;
     transform: scale(0);
-
 }
 .Tech-spec
 {
@@ -685,7 +689,6 @@ nav ul li a:hover::after
     transition: 0.5s;
     text-shadow: 0 1px 5px #f2f2f0;
     border-radius: 0;
-
 }
 
 /*---------Contact--------*/
@@ -700,14 +703,15 @@ nav ul li a:hover::after
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.contact-left .btn.btn2
-{
-    transform: translateY(-11px);
+    border: 2px solid white;
+    border-radius: 20px;
 }
 .contact-right
 {
     flex-basis: 60%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
 }
 .contact-left p
 {
@@ -720,10 +724,6 @@ nav ul li a:hover::after
 {
     margin-top: 60px;
     background: #130101;
-    box-shadow: 0 -5px 10px  #383333,
-    inset 0 -5px 13px  #020202d2,
-    0 5px 13px  #383333,
-    inset 0 -5px 13px  #000000c5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -771,13 +771,11 @@ nav ul li a:hover::after
     color: #ffffff;
     text-shadow: 0 1px 5px #ffffff81;
 }
-.btn.btn2
+.btn
 {
-    display: inline-block;
-}
-.btn.btn2:hover
-{
-    transform: scale(1.05);
+    align-self: center;
+    justify-self: center;
+    display: flex;
 }
 .contact-right form
 {
@@ -795,7 +793,11 @@ form input,form textarea
     font-size: 18px;
     border-radius: 6px;
 }
-form .btn2
+form textarea
+{
+    height: 225px;
+}
+form .btn
 {
     padding: 14px 60px;
     font-size: 18px;
