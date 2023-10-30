@@ -1069,9 +1069,11 @@ nav .fa-solid
         border-right: 2px transparent solid;
         border-radius: 0 20px 20px 0;
     }
-    .contact-field
+    .contact-left .contact-field
     {
         border: 2px solid white;
+        border-radius: 20px;
+        text-shadow: none;
     }
     .copyright
     {
