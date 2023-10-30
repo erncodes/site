@@ -888,7 +888,7 @@ nav .fa-solid
     {
         position: absolute;
         top: 120px;
-        justify-self: center;
+        right: 120px;
         background: #130101;
         padding: 2px;
         height: 150px;
