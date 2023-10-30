@@ -956,17 +956,18 @@ nav .fa-solid
         margin: 10px;
         margin-top: -60px;
     }
-    .about-col-1,.about-col-2
+   .about-col-2
     {
         flex-basis: 100%;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .about-col-1
     {
       display: none;
-    }
-    .about-col-2
-    {
-        font-size: 14px;
     }
     .about-col-2 p
     {
@@ -1059,7 +1060,7 @@ nav .fa-solid
         margin: 10px;
         padding: 10px;
         border-left: 2px transparent solid;
-        border-radius: 0 20px 20px 0;
+        border-radius: 20px 0 0 20px ;
     }
     .contact-right
     {
