@@ -1022,7 +1022,8 @@ nav .fa-solid
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 10px;
+        align-items: center;
+        padding: 5px;
         margin-top: 10px;
     }
     .work
@@ -1065,6 +1066,12 @@ nav .fa-solid
         flex-basis: 100%;
         margin: 10px;
         padding: 10px;
+        border-right: 2px transparent solid;
+        border-radius: 0 20px 20px 0;
+    }
+    .contact-field
+    {
+        border: 2px solid white;
     }
     .copyright
     {
