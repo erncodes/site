@@ -884,6 +884,10 @@ nav .fa-solid
         left: 25px;
         cursor: pointer;
     }
+    .header-text
+    {
+        margin-left: 100px;
+    }
     .animatediv
     {
         position: absolute;
@@ -1018,6 +1022,8 @@ nav .fa-solid
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding: 10px;
+        margin-top: 10px;
     }
     .work
     {
