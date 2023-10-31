@@ -827,7 +827,46 @@ nav .fa-solid
 {
     display: none;
 }
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 900px) and (min-width:601px) 
+{
+    #header
+    {
+        height: 100vh;
+    }
+    .header-text
+    {
+        font-size: 16px;
+        justify-self: center;
+        position: absolute;
+        bottom: -90px;
+        display: none;
+    }
+    .logo
+    {
+    display: inline-block;
+    }
+    .animatediv
+    {
+        height: 150px;
+        width: 150px;
+        right: 25% ;
+        top: 200px;
+    }
+    .about-col-1
+    {
+      display: none;
+    }
+    .about-col-2
+    {
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .details
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px),(orientation: landscape)
 {
     #header
     {
@@ -887,6 +926,9 @@ nav .fa-solid
     .header-text
     {
         margin-left: 100px;
+        z-index: 1;
+        background: white;
+        border-radius: 20px;
     }
     .animatediv
     {
@@ -903,6 +945,7 @@ nav .fa-solid
         border-radius: 10px ;
         transform: rotate(45deg);
         box-shadow: 0px 0px 10px 1px #130101;
+        z-index: 0;
 
     }
     .texteffects .box span
@@ -973,9 +1016,9 @@ nav .fa-solid
     {
         font-size: 16px;
     }
-    .tab-titles h5
+    .tab-titles
     {
-        margin: 20px;
+        transform: translateX(20px);
     }
     .layer
     {
