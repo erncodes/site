@@ -973,9 +973,10 @@ nav .fa-solid
     {
         font-size: 16px;
     }
-    .tab-titles h5
+    .tab-titles
     {
-        margin: 20px 5px;
+        transform: translateX(-15%);
+
     }
     .layer
     {
