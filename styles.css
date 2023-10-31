@@ -975,7 +975,7 @@ nav .fa-solid
     }
     .tab-titles h5
     {
-        transform: translateX(10px);
+        margin: 20px 5px;
     }
     .layer
     {
