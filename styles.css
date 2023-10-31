@@ -827,46 +827,8 @@ nav .fa-solid
 {
     display: none;
 }
-@media only screen and (max-width: 900px) and (min-width:601px) 
-{
-    #header
-    {
-        height: 100vh;
-    }
-    .header-text
-    {
-        font-size: 16px;
-        justify-self: center;
-        position: absolute;
-        bottom: -90px;
-        display: none;
-    }
-    .logo
-    {
-    display: inline-block;
-    }
-    .animatediv
-    {
-        height: 150px;
-        width: 150px;
-        right: 25% ;
-        top: 200px;
-    }
-    .about-col-1
-    {
-      display: none;
-    }
-    .about-col-2
-    {
-        flex-basis: 100%;
-        font-size: 14px;
-    }
-    .details
-    {
-        display: none;
-    }
-}
-@media only screen and (max-width: 600px)
+
+@media only screen and (max-width: 600px) and (orientation: landscape)
 {
     #header
     {
