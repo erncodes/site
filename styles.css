@@ -1132,6 +1132,7 @@ nav .fa-solid
     #header
     {
         background-image: url();
+        height: 120vh;
     }
     nav .fa-solid
     {
